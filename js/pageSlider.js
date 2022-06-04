@@ -110,7 +110,7 @@
 		}
 
 		that.index = $('.section').index($(this)) + 1;
-		var touch = event.touches[0];
+		var touch = event.clientY?event:event.touches[0];
 		that.distance = 0;
 		that.startY = touch.clientY;
 		that.curPagePos = $(this).offset().top;
@@ -137,7 +137,7 @@
 			event.preventDefault();
 			return;
 		}
-		var touch = event.touches[0];
+		var touch =event.clientY?event: event.touches[0];
 		that.distance = touch.clientY - that.startY;
 		if (Math.abs(that.distance) < 5) {
 			event.preventDefault();

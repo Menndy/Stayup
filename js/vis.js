@@ -127,7 +127,7 @@ const fePointLightNode = svgNode.querySelector('fePointLight');
 svgNode.addEventListener('mousemove', handleMove);
 svgNode.addEventListener('touchend', handleMove);
 function handleMove(event) {
-  var touch=event.changedTouches[0];
+  var touch=event.clientX? event: event.changedTouches[0];
   fePointLightNode.setAttribute('x', touch.clientX);
   fePointLightNode.setAttribute('y',  touch.clientY);
 }
@@ -310,11 +310,11 @@ function showScene8(){
   scene8_city.className="scene8_city fade-in"
   scene8_tianshi.className="scene8_tianshi rotate-in-down-left"
   secc8.addEventListener("touchend",bubblefloat)
-  
+  secc8.addEventListener("click",bubblefloat)
 }
 
 function bubblefloat(event){
-  var touch1=event.changedTouches[0];
+  var touch1=event.clientX ? event : event.changedTouches[0];
   var scene8_qipao1=document.getElementById("scene8_qipao1")
   var scene8_qipao2=document.getElementById("scene8_qipao2")
   var scene8_qipao3=document.getElementById("scene8_qipao3")
@@ -432,13 +432,13 @@ function showScene15(){
   var back_button2=document.getElementById("back_button2");
 
   secc15.addEventListener("touchend",bubblefloat1)
- 
+  secc15.addEventListener("click",bubblefloat1)
 }
 var secc15flag=0;
 function bubblefloat1(event){
   var htmlWidth=document.body.offsetWidth;
   var htmlHeight=document.body.offsetHeight;
-  var touch2=event.changedTouches[0];
+  var touch2=event.clientY?event:event.changedTouches[0];
  
 
   var scene15_zhangdou=document.getElementById("scene15_zhangdou");

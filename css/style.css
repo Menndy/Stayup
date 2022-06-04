@@ -1,3 +1,44 @@
+@media (min-width: 550px){
+    #loading{
+        /* max-width: 400px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
+
+        text-align:center;
+        text-align: -webkit-center;
+    }
+    .eye{
+        margin: 10% 4% 0 0 !important;
+
+    }
+    .loading-text{
+        position: absolute;
+        bottom:50% !important;
+        left: 46% !important;
+    }
+    .loading-text1{
+        top: 50% !important;
+        left: 40% !important;
+    }
+    .section{
+        max-width: 400px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+    .prev{
+        display: none !important;
+    }
+}
 
 /* 动画效果 */
 .gelatine {

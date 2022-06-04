@@ -28,8 +28,10 @@
    
     <div id="loading" class="span">
             <div class="eye"></div>
+            
+            <!-- <div class="loading-text1">建议手机竖屏查看哦</div> -->
+            <!-- <div class="loading-text1" style="margin-top: 20px;">电脑翻页请点击下方小箭头</div> -->
             <div class="loading-text">Loading...</div>
-            <div class="loading-text1">仅支持手机竖屏查看哦</div>
         </div>
 	<!-- <div class="section sec1" id="bubbletext"  style=" background-image: url(../img/test.png); background-size: cover; width: 100%; height: 100%;"> -->
     <div class="section sec1">
@@ -59,7 +61,7 @@
        
         <div id="scene1_biaoti" class=""></div>
         <div id="scene1_light_shanshuo" class=""></div>
-        <div class="sec_down_sec1"></div>
+        <div class="sec_down_sec1" onclick="pageSlider.go(2);showScene2();" ></div>
     </div>
 
 	<div class="section sec2" style=" background-color:white">
@@ -79,7 +81,7 @@
         <div id="sec3_people" class=""></div>
         <div id="sec3_mobile" class=""></div>
         <div id="sec3_bubble"></div>
-        <div class="sec_down"></div>
+        <div class="sec_down" onclick="pageSlider.go(4);showScene4();"></div>
     </div>
 
     <div class="section sec4" style="background-color:white">
@@ -90,14 +92,14 @@
         <div id="scene4_qipao2"class=''></div>
         <div id="scene4_qipao3"class=''></div>
         <div id="scene4_wenzi" class=''></div>
-        <div class="sec_down"></div>
+        <div class="sec_down"onclick="pageSlider.go(5);showScene5();"></div>
     </div>
 
 	<div class="section sec5"  style="background-color:white">
         <div id="scene5_yueliang" class="hidden"></div>
         <div id="scene5_laotou" class="hidden"></div>
         <div id="scene5_mupai"class="hidden"></div>
-        <div class="sec_down"></div>
+        <div class="sec_down"onclick="pageSlider.go(6);showScene6();"></div>
     </div>
 
 	
@@ -106,7 +108,7 @@
         <div id="scene6_emo" class=""></div>
         <div id="scene6_tianshi" class=""></div>
         <div id="scene6_qipao" class=''></div>
-        <div class="sec_down"></div>
+        <div class="sec_down"onclick="pageSlider.go(7);showScene7();"></div>
     </div>
 
     <div class="section sec7"  style="background-color:white">     
@@ -120,7 +122,7 @@
        <div id="scene7_qipao2" class=""></div>
        <div id="scene7_qipao3" class=""></div>
 
-       <div class="sec_down"></div>
+       <div class="sec_down" onclick="pageSlider.go(8);showScene8();"></div>
     </div>
 
     <div class="section sec8" id="secc8" style=" background-color:white">
@@ -132,7 +134,7 @@
         <div id="scene8_qipao3" class="hidden1"></div>
         <div id="scene8_tianshi" class=""></div>
         <div id="tiptip" class=""></div>
-        <div class="sec_down"></div>
+        <div class="sec_down"onclick="pageSlider.go(9);showScene9();"></div>
     </div>
 
     <div class="section sec9" style="background-color:white;">
@@ -140,23 +142,23 @@
          <div id="scene9_pic2" class=""></div>
          <div id="scene9_yuan1" class="hidden2"></div>
          <div id="scene9_yuan2" class="hidden2"></div>
-         <div class="sec_down"></div>
+         <div class="sec_down" onclick="pageSlider.go(10);showScene10();"></div>
     </div>
     
     <div class="section sec10" style="background-color:white;">
         <div id="sec10_bg" class=""></div>
-        <div class="sec_down"></div>
+        <div class="sec_down"onclick="pageSlider.go(11);showScene11();"></div>
     </div>
 
     <div class="section sec11" style="background-color:white;">
         <div id="sec11_bg" class=""></div>
-        <div class="sec_down"></div>
+        <div class="sec_down" onclick="pageSlider.go(12);showScene12();"></div>
     </div>
     <div class="section sec12" style="background-color:white;">    
         <div id="scene12_pic1" class=""></div>
         <div id="scene12_pic2" class=""></div>       
         <div id="scene12_qipao" class=""></div>
-        <div class="sec_down"></div>
+        <div class="sec_down"onclick="pageSlider.go(13);showScene13();"></div>
     </div>
     <div class="section sec13" id="secc13" style="background-color:white">
         
@@ -178,7 +180,7 @@
         <div id="bianpang"></div>
         <div id="cusi"></div>
         <div id="tiptip" class=""></div>
-        <div class="sec_down1" id="dangerous"></div>
+        <div class="sec_down1" id="dangerous" onclick="pageSlider.go(14);showScene14();"></div>
     </div>
 
     <div class="section sec14" style="background-color:white;">
@@ -236,7 +238,7 @@
        <div id="scene19_biaoti" class=""></div>
        <div id="scene19_tips1" class=""></div>
 
-       <div class="sec_down"></div>
+       <div class="sec_down" onclick="pageSlider.go(20);showScene20();"></div>
     </div>
 
     <div class="section sec20" style="background-color:white;">
@@ -246,7 +248,7 @@
         <div id="scene19_tips2_biaoti" class=""></div>
         <div id="scene19_tips2_wenzi" class=""></div>
 
-        <div class="sec_down"></div>
+        <div class="sec_down" onclick="pageSlider.go(21);showScene21();"></div>
     </div>
 
     <div class="section sec21" style="background-color:white;">
@@ -255,7 +257,7 @@
        <div id="scene21_tips2_biaoti" class=""></div>
        <div id="scene19_tips3_wenzi" class=""></div>
 
-       <div class="sec_down"></div>
+       <div class="sec_down" onclick="pageSlider.go(22);showScene22();"></div>
 
     </div>
     <div class="section sec22" style="background-color:white;">
@@ -274,7 +276,7 @@
           <div id="scene23_beidong" class=""></div>
           <div id="scene23_pic1" class=""></div>
 
-          <div class="sec_down"></div>
+          <div class="sec_down" onclick="pageSlider.go(24);showScene24();"></div>
     </div>
     <div class="section sec24" style="background-color:white;">
             <div id="scene24_bg" class=""></div>
@@ -282,7 +284,7 @@
             <div id="scene24_pic2" class=""></div>
             <div id="scene24_pic2_xiaobiaoti" class=""></div>
 
-            <div class="sec_down"></div>
+            <div class="sec_down" onclick="pageSlider.go(25);showScene25();"></div>
       </div>
       <div class="section sec25" style="background-color:white;">
             <div id="scene25_bg" class=""></div>
@@ -290,7 +292,7 @@
             <div id="scene25_pic2_xiaobiaoti" class=""></div>
             <div id="scene25_pic3" class=""></div>
 
-            <div class="sec_down"></div>
+            <div class="sec_down" onclick="pageSlider.go(26);showScene26();"></div>
       </div>
       <div class="section sec26" style="background-color:white;">
             <div id="scene26_bg" class=""></div>
@@ -304,24 +306,24 @@
             <div id="finalla" class=""></div>
             <div id="finalbutton" class=""></div>
 
-            <div class="sec_down"></div>
+            <div class="sec_down" onclick="pageSlider.go(28);showScene28();"></div>
       </div>
 
       <div class="section sec28" style="background-color:white;">
         <div id="appendix1" class=""></div>
-        <div class="sec_down"></div>
+        <div class="sec_down" onclick="pageSlider.go(29);showScene29();"></div>
   </div>
   <div class="section sec29" style="background-color:white;">
     <div id="appendix2" class=""></div>
-    <div class="sec_down"></div>
+    <div class="sec_down" onclick="pageSlider.go(30);showScene30();"></div>
 </div>
 <div class="section sec30" style="background-color:white;">
     <div id="appendix3" class=""></div>
-    <div class="sec_down"></div>
+    <div class="sec_down"onclick="pageSlider.go(31);showScene31();"></div>
 </div>
 <div class="section sec31" style="background-color:white;">
     <div id="appendix4" class=""></div>
-    <div class="sec_down"></div>
+    <div class="sec_down"onclick="pageSlider.go(32);showScene32();"></div>
 </div>
 <div class="section sec32" style="background-color:white;">
     <div id="appendix5" class=""></div>
@@ -355,6 +357,9 @@
 
             musicoff.addEventListener("touchend",musicOff);
             musicon.addEventListener("touchend",musicOn);
+            musicoff.addEventListener("click",musicOff);
+            musicon.addEventListener("click",musicOn);
+
 
             function musicOff(){
                 musicon.className=musicon.className?"":"hidden";
@@ -372,6 +377,12 @@
             bianchou.addEventListener("touchend",pageGoto15)
             bianpang.addEventListener("touchend",pageGoto16)
             cusi.addEventListener("touchend",pageGoto17)
+
+            sec2_button.addEventListener("click",pageGoto1)
+            bianben.addEventListener("click",pageGoto14)
+            bianchou.addEventListener("click",pageGoto15)
+            bianpang.addEventListener("click",pageGoto16)
+            cusi.addEventListener("click",pageGoto17)
 
             function pageGoto1(e){
                 pageSlider.go(3)
@@ -445,9 +456,17 @@
             back_button3.addEventListener("touchend",goBack3);
             back_button4.addEventListener("touchend",goBack4);
 
+            back_button1.addEventListener("click",goBack1);
+            back_button2.addEventListener("click",goBack2);
+            back_button3.addEventListener("click",goBack3);
+            back_button4.addEventListener("click",goBack4);
+
 
             go_leftzhudong.addEventListener("touchend",pageGoto19);
             go_rightbeidong.addEventListener("touchend",pageGoto23);
+
+            go_leftzhudong.addEventListener("click",pageGoto19);
+            go_rightbeidong.addEventListener("click",pageGoto23);
 
             moreaboutzhudong.addEventListener("touchend",pageGoto19);
             moreaboutbeidong.addEventListener("touchend",pageGoto23);
@@ -455,6 +474,13 @@
             getit1.addEventListener("touchend",pageGoto27);
 
             finalbutton.addEventListener("touchend", pageGotopage1)
+
+            moreaboutzhudong.addEventListener("click",pageGoto19);
+            moreaboutbeidong.addEventListener("click",pageGoto23);
+            getit.addEventListener("click",pageGoto27);
+            getit1.addEventListener("click",pageGoto27);
+
+            finalbutton.addEventListener("click", pageGotopage1)
                         
             function pageGoto13(e){
                 showScene13();
@@ -462,11 +488,13 @@
             }
             function goBack1(){
                 bianben.removeEventListener("touchend",pageGoto14)
+                bianben.removeEventListener("click",pageGoto14)
                 showScene13();
                 grey1.className=grey1.className?"bounce-in-left":"hidden bounce-in-left";
                 flag++;
                 if(flag===4){
                     sec13.addEventListener("touchmove",pageGoto18)
+                    sec13.addEventListener("click",pageGoto18)
                     dangerous.className="sec_down"
                 }
                 pageGoto13()
@@ -474,10 +502,12 @@
             }
             function goBack2(){
                 bianchou.removeEventListener("touchend",pageGoto15)
+                bianchou.removeEventListener("click",pageGoto15)
                 grey2.className=grey2.className?"bounce-in-right":"hidden bounce-in-right";
                 flag++;
                 if(flag===4){
                     sec13.addEventListener("touchmove",pageGoto18)
+                    sec13.addEventListener("click",pageGoto18)
                     dangerous.className="sec_down"
                 }
                 pageSlider.go(13)
@@ -485,10 +515,12 @@
             }
             function goBack3(){
                 bianpang.removeEventListener("touchend",pageGoto16)
+                bianpang.removeEventListener("click",pageGoto16)
                 grey3.className=grey3.className?"bounce-in-left":"hidden bounce-in-left";
                 flag++;
                 if(flag===4){
                     sec13.addEventListener("touchmove",pageGoto18)
+                    sec13.addEventListener("click",pageGoto18)
                     dangerous.className="sec_down"
                 }
                 pageSlider.go(13)
@@ -496,10 +528,12 @@
             }
             function goBack4(){
                 cusi.removeEventListener("touchend",pageGoto17)
+                cusi.removeEventListener("click",pageGoto17)
                 grey4.className=grey4.className?"bounce-in-right":"hidden bounce-in-right" ;
                 flag++;
                 if(flag===4){
                     sec13.addEventListener("touchmove",pageGoto18)
+                    sec13.addEventListener("click",pageGoto18)
                     dangerous.className="sec_down"
                 }
                 pageSlider.go(13)
