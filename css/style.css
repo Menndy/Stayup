@@ -917,6 +917,7 @@ body{
   animation: fadeInDown 2s infinite;
     /* position: relative; */
   display: block;
+    cursor:pointer;
 }
 
 .sec_down_sec1{
@@ -930,6 +931,7 @@ body{
     animation: fadeInDown 2s infinite;
       /* position: relative; */
     display: block;
+     cursor:pointer;
   }
 
 @keyframes fadeInDown {
